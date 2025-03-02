@@ -1,0 +1,366 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+.centrado{
+    text-align: center;
+
+}
+
+.cinebanner{
+    background-image: url("../imagenes/imagen1.jpg");
+    background-position: center;
+    height: 100vh;
+    
+}
+
+.cinebanner1{
+    background-image: url("../imagenes/imagen2.jpg");
+    background-position: center;
+    height: 100vh;
+    
+}
+
+/* Estilos de menu.html */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.body-menu{
+    background: rgb(7, 7, 7);
+    font-family: 'calibri';
+}
+
+.img-menu{
+    width: 250px;
+    float: left;
+    padding-bottom: 20px;
+}
+
+.menu{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.header-menu{
+    background: #01457e;
+    width: 100%;
+    clear: both;
+    content:'';
+    display: table;
+}
+
+.nav-menu {
+    float: right;
+}
+
+.li-menu {
+    list-style: none;
+    margin-left: 40px;
+    padding: 10px;
+    float: left;
+    position: relative;    
+}
+
+.a-menu {
+    color: #070707;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.a-menu::before {
+    display: block;
+    content:'';
+    width: 0%;
+    background: red;
+    height: 5px;
+    top: 0;
+    position: absolute;
+    transition: width 0.2s;
+}
+
+.a-menu:hover:before {
+    width: 100%;
+}
+
+
+.video-menu {
+    width: 1920px;
+    height: 970px;
+}
+
+.footer-menu {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/* ----------------------- */
+
+/* Estilos de inicio.html */
+
+.body-inicio {
+    background-color: rgb(0, 0, 0);
+}
+
+.h1inicio{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(252, 252, 252);
+    background-color: #01457e;
+    /*padding-top modifica la altura de arriba del fondo */
+    padding-top: 10px;
+    /*padding-bottom modifica la altura de abajo del fondo */
+    padding-bottom: 10px;
+}
+
+.formatopie {
+    color: #1500d3;
+}
+
+footer {
+    background-color: rgb(248, 243, 243);
+    padding: 10px 10px;
+}
+
+h2 {
+    font-size: 50px;
+    color: white;
+}
+
+.img-1 {
+    margin-bottom: 230px;
+    margin-right: 20px;
+}
+
+.img-2 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.img-3 {
+    margin-left: 50px;
+    margin-bottom: 444px;
+    margin-right: 50px;
+    width: 150px;
+}
+
+.header-inicio {
+    background-color: #01457e;
+}
+
+.img-header {
+    width: 15%;
+    margin-left: 830px;
+}
+
+
+/* ----------------------- */
+
+/* Estilos de login.html */
+
+.body-login{
+    font-family: arial;
+}
+
+.section-login {
+    width: 400px;
+    height: 340px;
+    background: #4e4d4d;
+    box-sizing: border-box;
+    margin: auto;
+    margin-top: 180px;
+    box-shadow: 7px 13px 37px #000;
+    padding: 20px 30px;
+    border-top: 4px solid #017bab;
+    color: white;
+}
+
+.section-login h5 {
+    margin: 0;
+    text-align: center;
+    height: 40px;
+    margin-bottom: 30px;
+    /* El solid le pine la raya */
+    border-bottom: 1px solid;
+    font-size: 20px;
+}
+
+.controls {
+    width: 100%;
+    border: 1px solid #017bab;
+    margin-bottom: 15px;
+    padding: 11px 10px;
+    background: #252323;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+}
+
+.buttons {
+    width: 100%;
+    height: 40px;
+    background: #017bab;
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 16px;
+}
+
+.section-login p {
+    height: 40px;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+.section-login a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+
+/* ----------------------- */
+
+.hr1{
+    width: 630px;
+    margin-left: 640px;
+    /*height es para aumentar el grosor de la línea*/
+    height: 4px;
+    background-color: #070707;    
+}
+
+.h2landing{
+    font-size: 50px; 
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.form1{    
+    display: flex;
+    justify-content: center;    
+    color: #fff;
+    padding-top: 100px;
+}
+
+.espacio1{
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+
+
+video{
+    /*fixed es para que no haya scroll*/
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    /*para que el video siempre se vea centrado incluso cuando pongas titulos, etc, serían estas coordenadas
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);*/
+    z-index: -1;
+}
+
+
+
+.h1index{
+    color: rgb(225, 237, 241);
+    justify-content: center;
+    padding-top: 250px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 100px;
+   
+    
+}
+
+.abajo1{
+    padding-top: 10px;
+}
+
+.abajo2{
+    padding-top: 30px;
+}
+
+.font-control{
+    font-size: 25px;
+}
+
+.font-control1{
+    font-size: 20px;
+
+}
+
+.botones {
+    width: 150px;
+    height: 30px;
+    border: 3px solid #070707;
+    /* Cursor: pointer es la mano que sale cuando se para el cursor en el botón */
+    cursor: pointer;
+    color: #fff;
+    background-color: #8e09db;
+    font-family: Arial;
+    font-size: 30px;
+    /*es una negrita*/
+    font-weight: bold;
+    /*espaciado*/
+    padding: 6px 35px;
+    /*quita subrayado*/
+    text-decoration: none; 
+    text-shadow: 0px 1px 0px #0a2ada;
+    transition: all linear 0.2s;
+    /*forma del boton redondeado*/
+    border-radius: 24px;
+}
+
+.botonlogin{
+    width: 150px;
+    height: 30px;
+    border: 3px solid #070707;
+    /* Cursor: pointer es la mano que sale cuando se para el cursor en el botón */
+    cursor: pointer;
+    color: #fff;
+    background-color: #8e09db;
+    font-family: Arial;
+    font-size: 20px;
+    /*es una negrita*/
+    font-weight: bold;
+    /*espaciado*/
+    padding: 6px 35px;
+    /*quita subrayado*/
+    text-decoration: none; 
+    text-shadow: 0px 1px 0px #0a2ada;
+    transition: all linear 0.2s;
+    /*forma del boton redondeado*/
+    border-radius: 24px;
+}
+
+.botonlanding{
+    width: 150px;
+    height: 30px;
+    border: 3px solid #070707;
+    /* Cursor: pointer es la mano que sale cuando se para el cursor en el botón */
+    cursor: pointer;
+    color: #fff;
+    background-color: #8e09db;
+    font-family: Arial;
+    font-size: 20px;
+    /*es una negrita*/
+    font-weight: bold;
+    /*espaciado*/
+    padding: 6px 35px;
+    /*quita subrayado*/
+    text-decoration: none; 
+    text-shadow: 0px 1px 0px #0a2ada;
+    transition: all linear 0.2s;
+    /*forma del boton redondeado*/
+    border-radius: 24px;
+}
+
+
+
+
